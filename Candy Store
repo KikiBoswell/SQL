@@ -1,0 +1,37 @@
+/**Candy Store:
+Skittles(3)
+Twix(4)
+Gummy bears(5)
+KitKat(8)
+Starburst(10)
+Butter finger(4)
+Milky Way(3)
+Ring pops(2)
+Jelly beans(4)
+Snickers(3)
+M&M's(4)
+Jolly rancher(3)
+Twizzlers(4)
+Reese(3)
+Nerds(4)
+**/
+
+CREATE TABLE CandyStore (id INTEGER primary key,name TEXT,Quantity INTEGER,Price INTEGER,Item INTEGER);
+
+INSERT INTO Candystore VALUES(1,"Skittles",3,
+3,5);
+INSERT INTO Candystore VALUES(2,"Twix",4,3,6);
+INSERT INTO Candystore VALUES(3,"Gummy bears",5,4,5);
+INSERT INTO Candystore VALUES(4,"Kit kat",8,3,6);
+INSERT INTO Candystore VALUES(5,"Starburst",10,3,5);
+INSERT INTO Candystore VALUES(6,"Butter finger",4,3,6);
+INSERT INTO Candystore VALUES(7,"Milky way",3,3,5);
+INSERT INTO Candystore VALUES(8,"Ring pops",2,3,5);
+INSERT INTO Candystore VALUES(9,"Jelly beans",4,3,6);
+INSERT INTO Candystore VALUES(10,"snickers",3,3,5);
+INSERT INTO Candystore VALUES(11,"M&M's",4,3,6);
+INSERT INTO Candystore VALUES(12,"Jolly rancher",3,3,5);
+INSERT INTO Candystore VALUES(13,"Twizzlers",4,3,5);
+INSERT INTO Candystore VALUES(14,"Reese",3,3,5);
+INSERT INTO Candystore VALUES(15,"Nerds",4,3,6);
+SELECT * FROM Candystore
